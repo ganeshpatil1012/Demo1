@@ -31,6 +31,12 @@ for (int i=0;i<=list.size();i++) {
 		
 		
 	}
+	for (int i=0;i<=list.size();i++) {
+	String AutoText=list.get(i).getText();
+	System.out.println(AutoText);
+	if(AutoText.endsWith("maven download")) {
+		list.get(i).click();
+		break;
 	
 }
 
